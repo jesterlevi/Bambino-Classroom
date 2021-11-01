@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BambinoClassroom">
         <activity
+            android:name=".EndActivity"
+            android:exported="false" />
+        <activity
             android:name=".Vegetables"
             android:exported="false" />
         <activity
