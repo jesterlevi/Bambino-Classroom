@@ -13,19 +13,7 @@
             android:name=".EndActivity"
             android:exported="false" />
         <activity
-            android:name=".Vegetables"
-            android:exported="false" />
-        <activity
-            android:name=".Sounds"
-            android:exported="false" />
-        <activity
-            android:name=".Shapes"
-            android:exported="false" />
-        <activity
-            android:name=".Fruits"
-            android:exported="false" />
-        <activity
-            android:name=".Colors"
+            android:name=".GuessTheSoundActivity"
             android:exported="false" />
         <activity
             android:name=".GuessThePictureActivity"

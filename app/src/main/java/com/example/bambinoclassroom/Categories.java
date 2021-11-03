@@ -64,28 +64,28 @@ public class Categories extends AppCompatActivity {
     }
 
     public void openColors() {
-        Intent intent = new Intent(this, Colors.class);
-        startActivity(intent);
+
+        startActivity(GuessThePictureActivity.createIntent(this, "COLORS"));
     }
 
     public void openFruits() {
-        Intent intent = new Intent(this, Fruits.class);
-        startActivity(intent);
+
+        startActivity(GuessThePictureActivity.createIntent(this, "FRUITS"));
     }
 
     public void openShapes() {
-        Intent intent = new Intent(this, Shapes.class);
-        startActivity(intent);
+
+        startActivity(GuessThePictureActivity.createIntent(this, "SHAPES"));
     }
 
     public void openSounds() {
-        Intent intent = new Intent(this, Sounds.class);
+        Intent intent = new Intent(this, GuessTheSoundActivity.class);
         startActivity(intent);
     }
 
     public void openVegetables() {
-        Intent intent = new Intent(this, Vegetables.class);
-        startActivity(intent);
+
+        startActivity(GuessThePictureActivity.createIntent(this, "VEGETABLES"));
     }
 
 }

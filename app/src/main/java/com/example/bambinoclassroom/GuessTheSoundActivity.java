@@ -19,7 +19,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class GuessThePictureActivity extends AppCompatActivity {
+public class GuessTheSoundActivity extends AppCompatActivity {
 
 
     private List<QuestionItem> questionItems;
@@ -60,11 +60,11 @@ public class GuessThePictureActivity extends AppCompatActivity {
                         .equals(questionItems.get(currentQuestion).getCorrect())) {
                     //correct
                     correct++;
-                    Toast.makeText(GuessThePictureActivity.this, "Correct!", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(GuessTheSoundActivity.this, "Correct!", Toast.LENGTH_SHORT).show();
                 } else {
                     //wrong
                     wrong++;
-                    Toast.makeText(GuessThePictureActivity.this, "Wrong! Correct answer: "
+                    Toast.makeText(GuessTheSoundActivity.this, "Wrong! Correct answer: "
                             + questionItems.get(currentQuestion).getCorrect(), Toast.LENGTH_SHORT).show();
                 }
 
@@ -91,11 +91,11 @@ public class GuessThePictureActivity extends AppCompatActivity {
                         .equals(questionItems.get(currentQuestion).getCorrect())) {
                     //correct
                     correct++;
-                    Toast.makeText(GuessThePictureActivity.this, "Correct!", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(GuessTheSoundActivity.this, "Correct!", Toast.LENGTH_SHORT).show();
                 } else {
                     //wrong
                     wrong++;
-                    Toast.makeText(GuessThePictureActivity.this, "Wrong! Correct answer: "
+                    Toast.makeText(GuessTheSoundActivity.this, "Wrong! Correct answer: "
                             + questionItems.get(currentQuestion).getCorrect(), Toast.LENGTH_SHORT).show();
                 }
 
@@ -122,11 +122,11 @@ public class GuessThePictureActivity extends AppCompatActivity {
                         .equals(questionItems.get(currentQuestion).getCorrect())) {
                     //correct
                     correct++;
-                    Toast.makeText(GuessThePictureActivity.this, "Correct!", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(GuessTheSoundActivity.this, "Correct!", Toast.LENGTH_SHORT).show();
                 } else {
                     //wrong
                     wrong++;
-                    Toast.makeText(GuessThePictureActivity.this, "Wrong! Correct answer: "
+                    Toast.makeText(GuessTheSoundActivity.this, "Wrong! Correct answer: "
                             + questionItems.get(currentQuestion).getCorrect(), Toast.LENGTH_SHORT).show();
                 }
 
@@ -153,11 +153,11 @@ public class GuessThePictureActivity extends AppCompatActivity {
                         .equals(questionItems.get(currentQuestion).getCorrect())) {
                     //correct
                     correct++;
-                    Toast.makeText(GuessThePictureActivity.this, "Correct!", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(GuessTheSoundActivity.this, "Correct!", Toast.LENGTH_SHORT).show();
                 } else {
                     //wrong
                     wrong++;
-                    Toast.makeText(GuessThePictureActivity.this, "Wrong! Correct answer: "
+                    Toast.makeText(GuessTheSoundActivity.this, "Wrong! Correct answer: "
                             + questionItems.get(currentQuestion).getCorrect(), Toast.LENGTH_SHORT).show();
                 }
 
@@ -207,34 +207,28 @@ public class GuessThePictureActivity extends AppCompatActivity {
         questionItems = new ArrayList<>();
 
         //load all questions into json string
-        String questionnaireFilepath = "";
-        if ("ANIMALS".equals(type)) {
-            questionnaireFilepath = "guess_the_animal.json";
-        }
-        else if ("COLORS".equals(type)) {
-            questionnaireFilepath = "guess_the_color.json";
-        }
+        String questionnaireFilepath = "guess_the_sound.json";
 
-    String jsonStr = loadJSONFromAsset(questionnaireFilepath);
-    //load all data into the list
-    Questionnaire questionnaire = new Gson().fromJson(jsonStr,Questionnaire.class);
-    questionItems = questionnaire.getQuestions();
+        String jsonStr = loadJSONFromAsset(questionnaireFilepath);
+        //load all data into the list
+        Questionnaire questionnaire = new Gson().fromJson(jsonStr,Questionnaire.class);
+        questionItems = questionnaire.getQuestions();
 
     }
 
     //load the json file from assets folder
     private String loadJSONFromAsset(String file) {
-       String json = "";
-       try {
-           InputStream is = getAssets().open(file);
-           int size = is.available();
-           byte[] buffer = new byte[size];
-           is.read(buffer);
-           is.close();
-           json = new String(buffer, "UTF-8");
-       } catch (IOException e){
-           e.printStackTrace();
-       }
-       return json;
+        String json = "";
+        try {
+            InputStream is = getAssets().open(file);
+            int size = is.available();
+            byte[] buffer = new byte[size];
+            is.read(buffer);
+            is.close();
+            json = new String(buffer, "UTF-8");
+        } catch (IOException e){
+            e.printStackTrace();
+        }
+        return json;
     }
 }
