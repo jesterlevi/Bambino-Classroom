@@ -5,54 +5,51 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ImageButton;
 import android.view.View.OnClickListener;
 
+import com.example.bambinoclassroom.databinding.ActivityCategoriesBinding;
+
 public class Categories extends AppCompatActivity {
+
+    private ActivityCategoriesBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_categories);
+        binding = ActivityCategoriesBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
 
-        ImageButton btn_ani = (ImageButton) findViewById(R.id.animals);
-        ImageButton btn_col = (ImageButton) findViewById(R.id.colors);
-        ImageButton btn_fru = (ImageButton) findViewById(R.id.fruits);
-        ImageButton btn_sha = (ImageButton) findViewById(R.id.shapes);
-        ImageButton btn_sou = (ImageButton) findViewById(R.id.sounds);
-        ImageButton btn_veg = (ImageButton) findViewById(R.id.vegetables);
-
-        btn_ani.setOnClickListener(new OnClickListener() {
+        binding.animals.setOnClickListener(new OnClickListener() {
         @Override
         public void onClick(View v) {
             openAnimals();
         }});
 
-        btn_col.setOnClickListener(new OnClickListener() {
+        binding.colors.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
                 openColors();
             }});
 
-        btn_fru.setOnClickListener(new OnClickListener() {
+        binding.fruits.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
                 openFruits();
             }});
 
-        btn_sha.setOnClickListener(new OnClickListener() {
+        binding.shapes.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
                 openShapes();
             }});
 
-        btn_sou.setOnClickListener(new OnClickListener() {
+        binding.sounds.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
                 openSounds();
             }});
 
-        btn_veg.setOnClickListener(new OnClickListener() {
+        binding.vegetables.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
                 openVegetables();

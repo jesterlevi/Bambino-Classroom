@@ -34,12 +34,19 @@
         android:layout_height="wrap_content"
         android:text="Answer 4" />
 
-    <ImageView
-        android:id="@+id/question"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+    <Button
+        android:id="@+id/play_sound"
+        android:layout_width="180dp"
+        android:layout_height="111dp"
         android:layout_above="@id/answer1"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:gravity="center" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="217dp"
+        android:layout_marginBottom="210dp"
+        android:gravity="center"
+        android:text="PLAY" />
+
 
 </RelativeLayout>
