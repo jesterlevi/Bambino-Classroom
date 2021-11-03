@@ -59,8 +59,8 @@ public class Categories extends AppCompatActivity {
             }});
 }
     public void openAnimals() {
-        Intent intent = new Intent(this, Animals.class);
-        startActivity(intent);
+
+        startActivity(GuessThePictureActivity.createIntent(this, "ANIMALS"));
     }
 
     public void openColors() {

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Animals">
+    tools:context=".GuessThePictureActivity">
 
     <Button
         android:id="@+id/answer1"
@@ -34,13 +34,12 @@
         android:layout_height="wrap_content"
         android:text="Answer 4" />
 
-    <TextView
+    <ImageView
         android:id="@+id/question"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@id/answer1"
         android:layout_alignParentTop="true"
-        android:gravity="center"
-        android:text="Question" />
+        android:gravity="center" />
 
 </RelativeLayout>

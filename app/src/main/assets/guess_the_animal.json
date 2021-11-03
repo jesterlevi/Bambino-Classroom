@@ -1,7 +1,7 @@
      {
      "questions": [
      {
-     "question":"file://android_asset/cat.jpg",
+     "question":"cat.jpg",
      "answer1": "Lion",
      "answer2": "Cat",
      "answer3": "Mouse",
@@ -9,7 +9,7 @@
        "correct": "Cat"
      },
      {
-       "question": "audio path",
+       "question": "giraffe.jpg",
        "answer1": "Zebra",
        "answer2": "Tiger",
        "answer3": "Giraffe",

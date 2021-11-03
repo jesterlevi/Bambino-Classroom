@@ -2,16 +2,16 @@ package com.example.bambinoclassroom;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.Intent;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
-import android.widget.TextView;
 import android.widget.Toast;
 
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
+import com.bumptech.glide.Glide;
+import com.example.bambinoclassroom.databinding.ActivityGuessThePictureBinding;
+import com.google.gson.Gson;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -19,26 +19,31 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class Animals extends AppCompatActivity {
+public class GuessThePictureActivity extends AppCompatActivity {
 
-    TextView tv_question;
-    Button b_answer1, b_answer2, b_answer3, b_answer4;
 
-    List<QuestionItem> questionItems;
-    int currentQuestion = 0;
+    private List<QuestionItem> questionItems;
+    private int currentQuestion = 0;
 
-    int correct = 0, wrong = 0;
+    private int correct = 0;
+    private int wrong = 0;
+    private ActivityGuessThePictureBinding binding;
+    private String type;
+    public final static String EXTRA_TYPE = "EXTRA_TYPE";
+
+    public static Intent createIntent(Context context, String type) {
+        Intent intent = new Intent(context, GuessThePictureActivity.class);
+        intent.putExtra(EXTRA_TYPE, type);
+        return intent;
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_animals);
+        binding = ActivityGuessThePictureBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
+        setupExtras();
 
-        tv_question = findViewById(R.id.question);
-        b_answer1 = findViewById(R.id.answer1);
-        b_answer2 = findViewById(R.id.answer2);
-        b_answer3 = findViewById(R.id.answer3);
-        b_answer4 = findViewById(R.id.answer4);
 
         //get all the questions
         loadAllQuestions();
@@ -47,24 +52,24 @@ public class Animals extends AppCompatActivity {
         //load first question
         setQuestionScreen(currentQuestion);
 
-        b_answer1.setOnClickListener(new View.OnClickListener(){
+        binding.answer1.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v){
+            public void onClick(View v) {
                 //check if the answer is correct
                 if (questionItems.get(currentQuestion).getAnswer1()
-                .equals(questionItems.get(currentQuestion).getCorrect())) {
+                        .equals(questionItems.get(currentQuestion).getCorrect())) {
                     //correct
                     correct++;
-                    Toast.makeText(Animals.this, "Correct!", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(GuessThePictureActivity.this, "Correct!", Toast.LENGTH_SHORT).show();
                 } else {
                     //wrong
                     wrong++;
-                    Toast.makeText(Animals.this, "Wrong! Correct answer: "
+                    Toast.makeText(GuessThePictureActivity.this, "Wrong! Correct answer: "
                             + questionItems.get(currentQuestion).getCorrect(), Toast.LENGTH_SHORT).show();
                 }
 
                 //load next question if any
-                if(currentQuestion < questionItems.size()-1) {
+                if (currentQuestion < questionItems.size() - 1) {
                     currentQuestion++;
                     setQuestionScreen(currentQuestion);
                 } else {
@@ -78,24 +83,24 @@ public class Animals extends AppCompatActivity {
             }
         });
 
-        b_answer2.setOnClickListener(new View.OnClickListener(){
+        binding.answer2.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v){
+            public void onClick(View v) {
                 //check if the answer is correct
                 if (questionItems.get(currentQuestion).getAnswer2()
                         .equals(questionItems.get(currentQuestion).getCorrect())) {
                     //correct
                     correct++;
-                    Toast.makeText(Animals.this, "Correct!", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(GuessThePictureActivity.this, "Correct!", Toast.LENGTH_SHORT).show();
                 } else {
                     //wrong
                     wrong++;
-                    Toast.makeText(Animals.this, "Wrong! Correct answer: "
+                    Toast.makeText(GuessThePictureActivity.this, "Wrong! Correct answer: "
                             + questionItems.get(currentQuestion).getCorrect(), Toast.LENGTH_SHORT).show();
                 }
 
                 //load next question if any
-                if(currentQuestion < questionItems.size()-1) {
+                if (currentQuestion < questionItems.size() - 1) {
                     currentQuestion++;
                     setQuestionScreen(currentQuestion);
                 } else {
@@ -109,24 +114,24 @@ public class Animals extends AppCompatActivity {
             }
         });
 
-        b_answer3.setOnClickListener(new View.OnClickListener(){
+        binding.answer3.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v){
+            public void onClick(View v) {
                 //check if the answer is correct
                 if (questionItems.get(currentQuestion).getAnswer3()
                         .equals(questionItems.get(currentQuestion).getCorrect())) {
                     //correct
                     correct++;
-                    Toast.makeText(Animals.this, "Correct!", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(GuessThePictureActivity.this, "Correct!", Toast.LENGTH_SHORT).show();
                 } else {
                     //wrong
                     wrong++;
-                    Toast.makeText(Animals.this, "Wrong! Correct answer: "
+                    Toast.makeText(GuessThePictureActivity.this, "Wrong! Correct answer: "
                             + questionItems.get(currentQuestion).getCorrect(), Toast.LENGTH_SHORT).show();
                 }
 
                 //load next question if any
-                if(currentQuestion < questionItems.size()-1) {
+                if (currentQuestion < questionItems.size() - 1) {
                     currentQuestion++;
                     setQuestionScreen(currentQuestion);
                 } else {
@@ -140,24 +145,24 @@ public class Animals extends AppCompatActivity {
             }
         });
 
-        b_answer4.setOnClickListener(new View.OnClickListener(){
+        binding.answer4.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v){
+            public void onClick(View v) {
                 //check if the answer is correct
                 if (questionItems.get(currentQuestion).getAnswer4()
                         .equals(questionItems.get(currentQuestion).getCorrect())) {
                     //correct
                     correct++;
-                    Toast.makeText(Animals.this, "Correct!", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(GuessThePictureActivity.this, "Correct!", Toast.LENGTH_SHORT).show();
                 } else {
                     //wrong
                     wrong++;
-                    Toast.makeText(Animals.this, "Wrong! Correct answer: "
+                    Toast.makeText(GuessThePictureActivity.this, "Wrong! Correct answer: "
                             + questionItems.get(currentQuestion).getCorrect(), Toast.LENGTH_SHORT).show();
                 }
 
                 //load next question if any
-                if(currentQuestion < questionItems.size()-1) {
+                if (currentQuestion < questionItems.size() - 1) {
                     currentQuestion++;
                     setQuestionScreen(currentQuestion);
                 } else {
@@ -172,49 +177,47 @@ public class Animals extends AppCompatActivity {
         });
     }
 
+    private void setupExtras() {
+        if (getIntent().hasExtra(EXTRA_TYPE)) {
+            type = getIntent().getStringExtra(EXTRA_TYPE);
+        }
+    }
+
     //set question to the screen
-    private void setQuestionScreen(int number){
-        tv_question.setText(questionItems.get(number).getQuestion());
-        b_answer1.setText(questionItems.get(number).getAnswer1());
-        b_answer2.setText(questionItems.get(number).getAnswer2());
-        b_answer3.setText(questionItems.get(number).getAnswer3());
-        b_answer4.setText(questionItems.get(number).getAnswer4());
+    private void setQuestionScreen(int number) {
+        try {
+            InputStream ims = getAssets().open(questionItems.get(number).getQuestion());
+            Drawable drawable = Drawable.createFromStream(ims, null);
+            Glide.with(this)
+                    .load(drawable)
+                    .into(binding.question);
+
+            ims.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        binding.answer1.setText(questionItems.get(number).getAnswer1());
+        binding.answer2.setText(questionItems.get(number).getAnswer2());
+        binding.answer3.setText(questionItems.get(number).getAnswer3());
+        binding.answer4.setText(questionItems.get(number).getAnswer4());
     }
 
     //make list with all the questions
-    private void loadAllQuestions(){
+    private void loadAllQuestions() {
         questionItems = new ArrayList<>();
 
-    //load all questions into json string
-    String jsonStr = loadJSONFromAsset("guess_the_animal.json");
-
-    //load all data into the list
-    try{
-        JSONObject jsonObj = new JSONObject(jsonStr);
-        JSONArray questions = jsonObj.getJSONArray("questions");
-        for (int i = 0; i < questions.length(); i++){
-            JSONObject question = questions.getJSONObject(i);
-
-            String questionString = question.getString("question");
-            String answer1String = question.getString("answer1");
-            String answer2String = question.getString("answer2");
-            String answer3String = question.getString("answer3");
-            String answer4String = question.getString("answer4");
-            String correctString = question.getString("correct");
-
-            questionItems.add(new QuestionItem(
-                    questionString,
-                    answer1String,
-                    answer2String,
-                    answer3String,
-                    answer4String,
-                    correctString
-            ));
+        //load all questions into json string
+        String questionnaireFilepath = "";
+        if ("ANIMALS".equals(type)) {
+            questionnaireFilepath = "guess_the_animal.json";
         }
 
-    } catch (JSONException e){
-        e.printStackTrace();
-    }
+
+    String jsonStr = loadJSONFromAsset(questionnaireFilepath);
+    //load all data into the list
+    Questionnaire questionnaire = new Gson().fromJson(jsonStr,Questionnaire.class);
+    questionItems = questionnaire.getQuestions();
+
     }
 
     //load the json file from assets folder

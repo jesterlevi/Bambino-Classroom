@@ -28,7 +28,7 @@
             android:name=".Colors"
             android:exported="false" />
         <activity
-            android:name=".Animals"
+            android:name=".GuessThePictureActivity"
             android:exported="false" />
         <activity
             android:name=".Categories"
