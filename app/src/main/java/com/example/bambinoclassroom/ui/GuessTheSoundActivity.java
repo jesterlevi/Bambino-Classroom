@@ -2,10 +2,8 @@ package com.example.bambinoclassroom.ui;
 
 import android.content.Context;
 import android.content.Intent;
-import android.content.res.AssetFileDescriptor;
 import android.media.MediaPlayer;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 

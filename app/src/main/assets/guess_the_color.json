@@ -13,7 +13,7 @@
       "answer1": "Yellow",
       "answer2": "Red",
       "answer3": "Violet",
-      "answer4": "Cyan",
+      "answer4": "Sky Blue",
       "correct": "Red"
     },
     {
@@ -28,7 +28,7 @@
       "question": "audio path",
       "answer1": "Red",
       "answer2": "Brown",
-      "answer3": "Cyan",
+      "answer3": "Sky Blue",
       "answer4": "Grey",
       "correct": "Brown"
     },
@@ -50,19 +50,155 @@
     },
     {
       "question": "audio path",
-      "answer1": "Cyan",
+      "answer1": "Sky Blue",
       "answer2": "Beige",
       "answer3": "Blue",
       "answer4": "Yellow",
-      "correct": "Cyan"
+      "correct": "Sky Blue"
     },
     {
       "question": "audio path",
-      "answer1": "Lime",
+      "answer1": "Green",
       "answer2": "Blue",
       "answer3": "Red",
       "answer4": "Pink",
-      "correct": "Lime"
+      "correct": "Green"
+    },
+    {
+      "question": "audio path",
+      "answer1": "Yellow",
+      "answer2": "Orange",
+      "answer3": "White",
+      "answer4": "Blue",
+      "correct": "White"
+    },
+    {
+      "question": "audio path",
+      "answer1": "Brown",
+      "answer2": "Red",
+      "answer3": "Pink",
+      "answer4": "Green",
+      "correct": "Red"
+    },
+    {
+      "question": "audio path",
+      "answer1": "Blue",
+      "answer2": "Yellow Green",
+      "answer3": "Violet",
+      "answer4": "Black",
+      "correct": "Black"
+    },
+    {
+      "question": "audio path",
+      "answer1": "Pink",
+      "answer2": "White",
+      "answer3": "Red",
+      "answer4": "Yellow",
+      "correct": "Yellow"
+    },
+    {
+      "question": "audio path",
+      "answer1": "Red",
+      "answer2": "Sky Blue",
+      "answer3": "Purple",
+      "answer4": "Orange",
+      "correct": "Purple"
+    },
+    {
+      "question": "audio path",
+      "answer1": "Yellow Green",
+      "answer2": "Orange",
+      "answer3": "Brown",
+      "answer4": "Blue",
+      "correct": "Orange"
+    },
+    {
+      "question": "audio path",
+      "answer1": "Sky Blue",
+      "answer2": "Green",
+      "answer3": "White",
+      "answer4": "Red",
+      "correct": "Sky Blue"
+    },
+    {
+      "question": "audio path",
+      "answer1": "Pink",
+      "answer2": "Blue",
+      "answer3": "Yellow Green",
+      "answer4": "Orange",
+      "correct": "Yellow Green"
+    },
+    {
+      "question": "audio path",
+      "answer1": "Yellow",
+      "answer2": "Red",
+      "answer3": "Brown",
+      "answer4": "Blue",
+      "correct": "Red"
+    },
+    {
+      "question": "audio path",
+      "answer1": "White",
+      "answer2": "Orange",
+      "answer3": "Blue",
+      "answer4": "Yellow",
+      "correct": "Blue"
+    },
+    {
+      "question": "audio path",
+      "answer1": "Green",
+      "answer2": "Brown",
+      "answer3": "Pink",
+      "answer4": "Sky Blue",
+      "correct": "Green"
+    },
+    {
+      "question": "audio path",
+      "answer1": "Violet",
+      "answer2": "Beige",
+      "answer3": "Black",
+      "answer4": "Orange",
+      "correct": "Beige"
+    },
+    {
+      "question": "audio path",
+      "answer1": "Blue",
+      "answer2": "Yellow Green",
+      "answer3": "Sky Blue",
+      "answer4": "Pink",
+      "correct": "Pink"
+    },
+    {
+      "question": "audio path",
+      "answer1": "Red",
+      "answer2": "Purple",
+      "answer3": "Green",
+      "answer4": "Blue",
+      "correct": "Blue"
+    },
+    {
+      "question": "audio path",
+      "answer1": "Yellow",
+      "answer2": "White",
+      "answer3": "Sky Blue",
+      "answer4": "Purple",
+      "correct": "Yellow"
+    },
+    {
+      "question": "audio path",
+      "answer1": "Blue",
+      "answer2": "Orange",
+      "answer3": "Red",
+      "answer4": "Black",
+      "correct": "Black"
+    },
+    {
+      "question": "audio path",
+      "answer1": "Orange",
+      "answer2": "Violet",
+      "answer3": "Yellow Green",
+      "answer4": "Blue",
+      "correct": "Blue"
     }
   ]
 }

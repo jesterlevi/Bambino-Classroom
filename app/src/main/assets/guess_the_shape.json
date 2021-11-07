@@ -2,67 +2,203 @@
   "questions": [
     {
       "question":"cat.jpg",
-      "answer1": "Lion",
-      "answer2": "Cat",
-      "answer3": "Mouse",
-      "answer4": "Ostrich",
-      "correct": "Cat"
+      "answer1": "Rectangle",
+      "answer2": "Circle",
+      "answer3": "Triangle",
+      "answer4": "Rhombus",
+      "correct": "Circle"
     },
     {
       "question": "giraffe.jpg",
-      "answer1": "Zebra",
-      "answer2": "Tiger",
-      "answer3": "Giraffe",
-      "answer4": "Skunk",
-      "correct": "Giraffe"
+      "answer1": "Triangle",
+      "answer2": "Oval",
+      "answer3": "Square",
+      "answer4": "Circle",
+      "correct": "Square"
     },
     {
       "question": "audio path",
-      "answer1": "Raccoon",
-      "answer2": "Shark",
-      "answer3": "Bat",
-      "answer4": "Donkey",
-      "correct": "Shark"
+      "answer1": "Rhombus",
+      "answer2": "Rectangle",
+      "answer3": "Circle",
+      "answer4": "Triangle",
+      "correct": "Triangle"
     },
     {
       "question": "audio path",
-      "answer1": "Dog",
-      "answer2": "Eagle",
-      "answer3": "Gorilla",
-      "answer4": "Octopus",
-      "correct": "Octopus"
+      "answer1": "Square",
+      "answer2": "Rhombus",
+      "answer3": "Triangle",
+      "answer4": "Rectangle",
+      "correct": "Square"
     },
     {
       "question": "audio path",
-      "answer1": "Orangutan",
-      "answer2": "Crocodile",
-      "answer3": "Piranha",
-      "answer4": "Kangaroo",
-      "correct": "Crocodile"
+      "answer1": "Rectangle",
+      "answer2": "Square",
+      "answer3": "Circle",
+      "answer4": "Triangle",
+      "correct": "Square"
     },
     {
       "question": "audio path",
-      "answer1": "Turtle",
-      "answer2": "Elephant",
-      "answer3": "Panda",
-      "answer4": "Horse",
-      "correct": "Horse"
+      "answer1": "Circle",
+      "answer2": "Triangle",
+      "answer3": "Rectangle",
+      "answer4": "Oval",
+      "correct": "Triangle"
     },
     {
       "question": "audio path",
-      "answer1": "Gecko",
-      "answer2": "Hyena",
-      "answer3": "Parrot",
-      "answer4": "Catfish",
-      "correct": "Parrot"
+      "answer1": "Oval",
+      "answer2": "Rhombus",
+      "answer3": "Triangle",
+      "answer4": "Circle",
+      "correct": "Rhombus"
     },
     {
       "question": "audio path",
-      "answer1": "Owl",
-      "answer2": "Eel",
-      "answer3": "Wolf",
-      "answer4": "Hamster",
-      "correct": "Owl"
+      "answer1": "Circle",
+      "answer2": "Rectangle",
+      "answer3": "Oval",
+      "answer4": "Triangle",
+      "correct": "Circle"
+    },
+    {
+      "question": "audio path",
+      "answer1": "Rectangle",
+      "answer2": "Circle",
+      "answer3": "Rhombus",
+      "answer4": "Oval",
+      "correct": "Oval"
+    },
+    {
+      "question": "audio path",
+      "answer1": "Triangle",
+      "answer2": "Oval",
+      "answer3": "Rectangle",
+      "answer4": "Rhombus",
+      "correct": "Rectangle"
+    },
+    {
+      "question": "audio path",
+      "answer1": "Circle",
+      "answer2": "Triangle",
+      "answer3": "Rhombus",
+      "answer4": "Oval",
+      "correct": "Circle"
+    },
+    {
+      "question": "audio path",
+      "answer1": "Rectangle",
+      "answer2": "Triangle",
+      "answer3": "Circle",
+      "answer4": "Rhombus",
+      "correct": "Triangle"
+    },
+    {
+      "question": "audio path",
+      "answer1": "Circle",
+      "answer2": "Oval",
+      "answer3": "Rectangle",
+      "answer4": "Triangle",
+      "correct": "Circle"
+    },
+    {
+      "question": "audio path",
+      "answer1": "Circle",
+      "answer2": "Oval",
+      "answer3": "Triangle",
+      "answer4": "Rectangle",
+      "correct": "Rectangle"
+    },
+    {
+      "question": "audio path",
+      "answer1": "Triangle",
+      "answer2": "Oval",
+      "answer3": "Rectangle",
+      "answer4": "Circle",
+      "correct": "Oval"
+    },
+    {
+      "question": "audio path",
+      "answer1": "Rectangle",
+      "answer2": "Oval",
+      "answer3": "Triangle",
+      "answer4": "Circle",
+      "correct": "Circle"
+    },
+    {
+      "question": "audio path",
+      "answer1": "Triangle",
+      "answer2": "Rhombus",
+      "answer3": "Rectangle",
+      "answer4": "Circle",
+      "correct": "Rhombus"
+    },
+    {
+      "question": "audio path",
+      "answer1": "Oval",
+      "answer2": "Rhombus",
+      "answer3": "Circle",
+      "answer4": "Triangle",
+      "correct": "Triangle"
+    },
+    {
+      "question": "audio path",
+      "answer1": "Rectangle",
+      "answer2": "Rhombus",
+      "answer3": "Circle",
+      "answer4": "Oval",
+      "correct": "Oval"
+    },
+    {
+      "question": "audio path",
+      "answer1": "Rectangle",
+      "answer2": "Triangle",
+      "answer3": "Circle",
+      "answer4": "Oval",
+      "correct": "Circle"
+    },
+    {
+      "question": "audio path",
+      "answer1": "Circle",
+      "answer2": "Triangle",
+      "answer3": "Rhombus",
+      "answer4": "Rectangle",
+      "correct": "Rectangle"
+    },
+    {
+      "question": "audio path",
+      "answer1": "Circle",
+      "answer2": "Triangle",
+      "answer3": "Oval",
+      "answer4": "Rectangle",
+      "correct": "Circle"
+    },
+    {
+      "question": "audio path",
+      "answer1": "Rhombus",
+      "answer2": "Triangle",
+      "answer3": "Oval",
+      "answer4": "Rectangle",
+      "correct": "Rhombus"
+    },
+    {
+      "question": "audio path",
+      "answer1": "Rhombus",
+      "answer2": "Triangle",
+      "answer3": "Square",
+      "answer4": "Rectangle",
+      "correct": "Square"
+    },
+    {
+      "question": "audio path",
+      "answer1": "Square",
+      "answer2": "Oval",
+      "answer3": "Square",
+      "answer4": "Triangle",
+      "correct": "Square"
     }
   ]
 }
