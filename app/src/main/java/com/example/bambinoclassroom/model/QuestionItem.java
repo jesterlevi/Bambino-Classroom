@@ -1,4 +1,4 @@
-package com.example.bambinoclassroom;
+package com.example.bambinoclassroom.model;
 
 
 import android.media.Image;

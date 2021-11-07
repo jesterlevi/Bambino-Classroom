@@ -10,19 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BambinoClassroom">
         <activity
-            android:name=".EndActivity"
+            android:name=".ui.EndActivity"
             android:exported="false" />
         <activity
-            android:name=".GuessTheSoundActivity"
+            android:name=".ui.GuessTheSoundActivity"
             android:exported="false" />
         <activity
-            android:name=".GuessThePictureActivity"
+            android:name=".ui.GuessThePictureActivity"
             android:exported="false" />
         <activity
-            android:name=".Categories"
+            android:name=".ui.Categories"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

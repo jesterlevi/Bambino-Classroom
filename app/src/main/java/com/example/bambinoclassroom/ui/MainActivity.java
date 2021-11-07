@@ -1,4 +1,4 @@
-package com.example.bambinoclassroom;
+package com.example.bambinoclassroom.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+
+import com.example.bambinoclassroom.R;
 
 public class MainActivity extends AppCompatActivity {
 

@@ -1,11 +1,9 @@
-package com.example.bambinoclassroom;
+package com.example.bambinoclassroom.model;
 
 import com.google.gson.annotations.SerializedName;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import lombok.Data;
 
 
 public class Questionnaire {

@@ -1,12 +1,14 @@
-package com.example.bambinoclassroom;
-
-import androidx.appcompat.app.AppCompatActivity;
+package com.example.bambinoclassroom.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
 
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.daimajia.androidanimations.library.Techniques;
+import com.daimajia.androidanimations.library.YoYo;
 import com.example.bambinoclassroom.databinding.ActivityCategoriesBinding;
 
 public class Categories extends AppCompatActivity {
@@ -43,11 +45,12 @@ public class Categories extends AppCompatActivity {
                 openShapes();
             }});
 
-        binding.sounds.setOnClickListener(new OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                openSounds();
-            }});
+        binding.sounds.setOnClickListener(v -> {
+            YoYo.with(Techniques.Tada)
+                    .duration(200)
+                    .playOn(v);
+            openSounds();
+        });
 
         binding.vegetables.setOnClickListener(new OnClickListener() {
             @Override
