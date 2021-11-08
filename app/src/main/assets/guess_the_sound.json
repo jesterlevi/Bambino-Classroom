@@ -2,14 +2,14 @@
   "questions": [
     {
       "question":"audio_cat.mp3",
-      "answer1": "Lion",
+      "answer1": "Bird",
       "answer2": "Cat",
       "answer3": "Mouse",
-      "answer4": "Ostrich",
+      "answer4": "Dog",
       "correct": "Cat"
     },
     {
-      "question": "Violin.mp3",
+      "question": "audio_violin.mp3",
       "answer1": "Guitar",
       "answer2": "Piano",
       "answer3": "Trumpet",
@@ -17,52 +17,188 @@
       "correct": "Violin"
     },
     {
-      "question":"audio_cat.mp3",
-      "answer1": "Raccoon",
-      "answer2": "Shark",
-      "answer3": "Bat",
-      "answer4": "Donkey",
-      "correct": "Shark"
+      "question":"audio_cow.mp3",
+      "answer1": "Chicken",
+      "answer2": "Horse",
+      "answer3": "Cow",
+      "answer4": "Duck",
+      "correct": "Cow"
     },
     {
-      "question":"audio_cat.mp3",
-      "answer1": "Dog",
-      "answer2": "Eagle",
-      "answer3": "Gorilla",
-      "answer4": "Octopus",
-      "correct": "Octopus"
+      "question":"audio_piano.mp3",
+      "answer1": "Violin",
+      "answer2": "Trumpet",
+      "answer3": "Piano",
+      "answer4": "Guitar",
+      "correct": "Piano"
     },
     {
-      "question":"audio_cat.mp3",
-      "answer1": "Orangutan",
-      "answer2": "Crocodile",
-      "answer3": "Piranha",
-      "answer4": "Kangaroo",
-      "correct": "Crocodile"
+      "question":"audio_trumpet.mp3",
+      "answer1": "Piano",
+      "answer2": "Guitar",
+      "answer3": "Violin",
+      "answer4": "Trumpet",
+      "correct": "Trumpet"
     },
     {
-      "question":"audio_cat.mp3",
-      "answer1": "Turtle",
-      "answer2": "Elephant",
-      "answer3": "Panda",
-      "answer4": "Horse",
+      "question":"audio_horse.mp3",
+      "answer1": "Horse",
+      "answer2": "Duck",
+      "answer3": "Chicken",
+      "answer4": "Cow",
       "correct": "Horse"
     },
     {
-      "question":"audio_cat.mp3",
-      "answer1": "Gecko",
-      "answer2": "Hyena",
-      "answer3": "Parrot",
-      "answer4": "Catfish",
-      "correct": "Parrot"
+      "question":"audio_duck.mp3",
+      "answer1": "Goat",
+      "answer2": "Duck",
+      "answer3": "Dog",
+      "answer4": "Chicken",
+      "correct": "Duck"
     },
     {
-      "question":"audio_cat.mp3",
-      "answer1": "Owl",
-      "answer2": "Eel",
-      "answer3": "Wolf",
-      "answer4": "Hamster",
-      "correct": "Owl"
+      "question":"audio_guitar.mp3",
+      "answer1": "Piano",
+      "answer2": "Guitar",
+      "answer3": "Violin",
+      "answer4": "Trumpet",
+      "correct": "Guitar"
+    },
+    {
+      "question":"audio_goat.mp3",
+      "answer1": "Chicken",
+      "answer2": "Duck",
+      "answer3": "Goat",
+      "answer4": "Dog",
+      "correct": "Goat"
+    },
+    {
+      "question":"audio_chicken.mp3",
+      "answer1": "Goat",
+      "answer2": "Dog",
+      "answer3": "Duck",
+      "answer4": "Chicken",
+      "correct": "Chicken"
+    },
+    {
+      "question":"audio_dog.mp3",
+      "answer1": "Chicken",
+      "answer2": "Duck",
+      "answer3": "Goat",
+      "answer4": "Dog",
+      "correct": "Dog"
+    },
+    {
+      "question":"audio_bird.mp3",
+      "answer1": "Mouse",
+      "answer2": "Cat",
+      "answer3": "Bird",
+      "answer4": "Dog",
+      "correct": "Bird"
+    },
+    {
+      "question":"audio_monkey.mp3",
+      "answer1": "Elephant",
+      "answer2": "Monkey",
+      "answer3": "Snake",
+      "answer4": "Mouse",
+      "correct": "Monkey"
+    },
+    {
+      "question":"audio_elephant.mp3",
+      "answer1": "Snake",
+      "answer2": "Elephant",
+      "answer3": "Mouse",
+      "answer4": "Monkey",
+      "correct": "Elephant"
+    },
+    {
+      "question":"audio_horn.mp3",
+      "answer1": "Car Horn",
+      "answer2": "Train Horn",
+      "answer3": "Ship Horn",
+      "answer4": "Bike Horn",
+      "correct": "Car Horn"
+    },
+    {
+      "question":"audio_thunder.mp3",
+      "answer1": "Rain",
+      "answer2": "Crickets",
+      "answer3": "Thunder",
+      "answer4": "Wind",
+      "correct": "Thunder"
+    },
+    {
+      "question":"audio_doorbell.mp3",
+      "answer1": "Doorbell",
+      "answer2": "Alarm Clock",
+      "answer3": "School Bell",
+      "answer4": "Boxing Bell",
+      "correct": "Doorbell"
+    },
+    {
+      "question":"audio_school.mp3",
+      "answer1": "Alarm Clock",
+      "answer2": "Boxing Bell",
+      "answer3": "Doorbell",
+      "answer4": "School Bell",
+      "correct": "School Bell"
+    },
+    {
+      "question":"audio_lion.mp3",
+      "answer1": "Cat",
+      "answer2": "Lion",
+      "answer3": "Monkey",
+      "answer4": "Owl",
+      "correct": "Lion"
+    },
+    {
+      "question":"audio_blender.mp3",
+      "answer1": "Blender",
+      "answer2": "Hair Dryer",
+      "answer3": "Vacuum Cleaner",
+      "answer4": "Washing Machine",
+      "correct": "Blender"
+    },
+    {
+      "question":"audio_rain.mp3",
+      "answer1": "Crickets",
+      "answer2": "Thunder",
+      "answer3": "Rain",
+      "answer4": "Wind",
+      "correct": "Rain"
+    },
+    {
+      "question":"audio_fireworks.mp3",
+      "answer1": "Airplane",
+      "answer2": "Fireworks",
+      "answer3": "Train",
+      "answer4": "Thunder",
+      "correct": "Fireworks"
+    },
+    {
+      "question":"audio_brush.mp3",
+      "answer1": "Pouring Water",
+      "answer2": "Door Knocking",
+      "answer3": "Brushing Teeth",
+      "answer4": "Cutting Paper",
+      "correct": "Brushing Teeth"
+    },
+    {
+      "question":"audio_knock.mp3",
+      "answer1": "Door Knocking",
+      "answer2": "Cutting Paper",
+      "answer3": "Pouring Water",
+      "answer4": "Brushing Teeth",
+      "correct": "Door Knocking"
+    },
+    {
+      "question":"audio_pour.mp3",
+      "answer1": "Brushing Teeth",
+      "answer2": "Cutting Paper",
+      "answer3": "Door Knocking",
+      "answer4": "Pouring Water",
+      "correct": "Pouring Water"
     }
   ]
 }
