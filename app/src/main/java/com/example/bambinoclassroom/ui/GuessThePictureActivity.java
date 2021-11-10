@@ -7,6 +7,9 @@ import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
@@ -42,6 +45,9 @@ public class GuessThePictureActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
+
         binding = ActivityGuessThePictureBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
         setupExtras();
@@ -53,6 +59,7 @@ public class GuessThePictureActivity extends AppCompatActivity {
         Collections.shuffle(questionItems);
         //load first question
         setQuestionScreen(currentQuestion);
+
 
         binding.answer1.setOnClickListener(new View.OnClickListener() {
             @Override
