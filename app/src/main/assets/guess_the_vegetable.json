@@ -1,7 +1,7 @@
 {
   "questions": [
     {
-      "question":"cat.jpg",
+      "question":"question_eggplant.png",
       "answer1": "Potato",
       "answer2": "Eggplant",
       "answer3": "Carrot",
@@ -9,7 +9,7 @@
       "correct": "Eggplant"
     },
     {
-      "question": "giraffe.jpg",
+      "question": "question_corn.png",
       "answer1": "Corn",
       "answer2": "Garlic",
       "answer3": "Turnip",
@@ -17,7 +17,7 @@
       "correct": "Corn"
     },
     {
-      "question": "audio path",
+      "question": "question_onion.png",
       "answer1": "Mushroom",
       "answer2": "Sweet Potato",
       "answer3": "Onion",
@@ -25,7 +25,7 @@
       "correct": "Onion"
     },
     {
-      "question": "audio path",
+      "question": "question_celery.png",
       "answer1": "Celery",
       "answer2": "Peas",
       "answer3": "Okra",
@@ -33,7 +33,7 @@
       "correct": "Celery"
     },
     {
-      "question": "audio path",
+      "question": "question_broccoli.png",
       "answer1": "Tomato",
       "answer2": "Chillies",
       "answer3": "Broccoli",
@@ -41,7 +41,7 @@
       "correct": "Broccoli"
     },
     {
-      "question": "audio path",
+      "question": "question_cauliflower.png",
       "answer1": "Cauliflower",
       "answer2": "Bottle Gourd",
       "answer3": "Squash",
@@ -49,7 +49,7 @@
       "correct": "Cauliflower"
     },
     {
-      "question": "audio path",
+      "question": "question_bitter.png",
       "answer1": "Bitter Gourd",
       "answer2": "Peas",
       "answer3": "Mushroom",
@@ -57,7 +57,7 @@
       "correct": "Bitter Gourd"
     },
     {
-      "question": "audio path",
+      "question": "question_garlic.png",
       "answer1": "Sweet Potato",
       "answer2": "Okra",
       "answer3": "Garlic",
@@ -65,7 +65,7 @@
       "correct": "Garlic"
     },
     {
-      "question": "audio path",
+      "question": "question_potato.png",
       "answer1": "Carrot",
       "answer2": "Broccoli",
       "answer3": "Spinach",
@@ -73,7 +73,7 @@
       "correct": "Potato"
     },
     {
-      "question": "audio path",
+      "question": "question_okra.png",
       "answer1": "Eggplant",
       "answer2": "Okra",
       "answer3": "Beans",
@@ -81,7 +81,7 @@
       "correct": "Okra"
     },
     {
-      "question": "audio path",
+      "question": "question_squash.png",
       "answer1": "Bell Pepper",
       "answer2": "Sweet Potato",
       "answer3": "Bottle Gourd",
@@ -89,7 +89,7 @@
       "correct": "Squash"
     },
     {
-      "question": "audio path",
+      "question": "question_mushroom.png",
       "answer1": "Turnip",
       "answer2": "Mushroom",
       "answer3": "Ginger",
@@ -97,7 +97,7 @@
       "correct": "Mushroom"
     },
     {
-      "question": "audio path",
+      "question": "question_cucumber.png",
       "answer1": "Cucumber",
       "answer2": "Tomato",
       "answer3": "Corn",
@@ -105,7 +105,7 @@
       "correct": "Cucumber"
     },
     {
-      "question": "audio path",
+      "question": "question_cabbage.png",
       "answer1": "Onion",
       "answer2": "Beans",
       "answer3": "Cabbage",
@@ -113,7 +113,7 @@
       "correct": "Cabbage"
     },
     {
-      "question": "audio path",
+      "question": "question_sweet.png",
       "answer1": "Radish",
       "answer2": "Sweet Potato",
       "answer3": "Carrot",
@@ -121,7 +121,7 @@
       "correct": "Sweet Potato"
     },
     {
-      "question": "audio path",
+      "question": "question_ginger.png",
       "answer1": "Okra",
       "answer2": "Chillies",
       "answer3": "Ginger",
@@ -129,7 +129,7 @@
       "correct": "Ginger"
     },
     {
-      "question": "audio path",
+      "question": "question_bottle.png",
       "answer1": "Peas",
       "answer2": "Bottle Gourd",
       "answer3": "Celery",
@@ -137,7 +137,7 @@
       "correct": "Bottle Gourd"
     },
     {
-      "question": "audio path",
+      "question": "question_chillies.png",
       "answer1": "Chillies",
       "answer2": "Onion",
       "answer3": "Tomato",
@@ -145,7 +145,7 @@
       "correct": "Chillies"
     },
     {
-      "question": "audio path",
+      "question": "question_turnip.png",
       "answer1": "Broccoli",
       "answer2": "Bitter Gourd",
       "answer3": "Turnip",
@@ -153,7 +153,7 @@
       "correct": "Turnip"
     },
     {
-      "question": "audio path",
+      "question": "question_beans.png",
       "answer1": "Beans",
       "answer2": "Cabbage",
       "answer3": "Potato",
@@ -161,7 +161,7 @@
       "correct": "Beans"
     },
     {
-      "question": "audio path",
+      "question": "question_chayote.png",
       "answer1": "Asparagus",
       "answer2": "Bell Pepper",
       "answer3": "Chayote",
@@ -169,7 +169,7 @@
       "correct": "Chayote"
     },
     {
-      "question": "audio path",
+      "question": "question_string.png",
       "answer1": "String Beans",
       "answer2": "Turnip",
       "answer3": "Lettuce",
@@ -177,7 +177,7 @@
       "correct": "String Beans"
     },
     {
-      "question": "audio path",
+      "question": "question_taro.png",
       "answer1": "Squash",
       "answer2": "Corn",
       "answer3": "Taro",
@@ -185,7 +185,7 @@
       "correct": "Taro"
     },
     {
-      "question": "audio path",
+      "question": "question_spinach.png",
       "answer1": "Celery",
       "answer2": "Eggplant",
       "answer3": "Beans",
@@ -193,7 +193,7 @@
       "correct": "Spinach"
     },
     {
-      "question": "audio path",
+      "question": "question_asparagus.png",
       "answer1": "String Beans",
       "answer2": "Asparagus",
       "answer3": "Tomato",
