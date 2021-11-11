@@ -1,7 +1,7 @@
      {
      "questions": [
      {
-     "question":"question_cat.jpg",
+     "question":"question_cat.png",
      "answer1": "Lion",
      "answer2": "Cat",
      "answer3": "Mouse",
@@ -9,7 +9,7 @@
        "correct": "Cat"
      },
      {
-       "question": "question_giraffe.jpg",
+       "question": "question_giraffe.png",
        "answer1": "Zebra",
        "answer2": "Tiger",
        "answer3": "Giraffe",
@@ -17,7 +17,7 @@
        "correct": "Giraffe"
      },
      {
-       "question": "audio path",
+       "question": "question_shark.png",
        "answer1": "Raccoon",
        "answer2": "Shark",
        "answer3": "Bat",
@@ -25,7 +25,7 @@
        "correct": "Shark"
      },
      {
-       "question": "audio path",
+       "question": "question_octopus.png",
        "answer1": "Dog",
        "answer2": "Eagle",
        "answer3": "Gorilla",
@@ -33,7 +33,7 @@
        "correct": "Octopus"
      },
      {
-       "question": "audio path",
+       "question": "question_crocodile.png",
        "answer1": "Orangutan",
        "answer2": "Crocodile",
        "answer3": "Piranha",
@@ -41,7 +41,7 @@
        "correct": "Crocodile"
      },
      {
-       "question": "audio path",
+       "question": "question_horse.png",
        "answer1": "Turtle",
        "answer2": "Elephant",
        "answer3": "Panda",
@@ -49,7 +49,7 @@
        "correct": "Horse"
      },
      {
-       "question": "audio path",
+       "question": "question_parrot.png",
        "answer1": "Gecko",
        "answer2": "Hyena",
        "answer3": "Parrot",
@@ -57,7 +57,7 @@
        "correct": "Parrot"
      },
      {
-       "question": "audio path",
+       "question": "question_owl.png",
        "answer1": "Owl",
        "answer2": "Eel",
        "answer3": "Wolf",
@@ -65,7 +65,7 @@
        "correct": "Owl"
      },
        {
-         "question": "audio path",
+         "question": "question_cow.png",
          "answer1": "Deer",
          "answer2": "Cow",
          "answer3": "Iguana",
@@ -73,7 +73,7 @@
          "correct": "Cow"
        },
        {
-         "question": "audio path",
+         "question": "question_chicken.png",
          "answer1": "Chicken",
          "answer2": "Frog",
          "answer3": "Fox",
@@ -81,7 +81,7 @@
          "correct": "Chicken"
        },
        {
-         "question": "audio path",
+         "question": "question_dog.png",
          "answer1": "Starfish",
          "answer2": "Squirrel",
          "answer3": "Dog",
@@ -89,7 +89,7 @@
          "correct": "Dog"
        },
        {
-         "question": "audio path",
+         "question": "question_rabbit.png",
          "answer1": "Koala",
          "answer2": "Turtle",
          "answer3": "Rabbit",
@@ -97,7 +97,7 @@
          "correct": "Rabbit"
        },
        {
-         "question": "audio path",
+         "question": "question_eagle.png",
          "answer1": "Goat",
          "answer2": "Flamingo",
          "answer3": "Eagle",
@@ -105,7 +105,7 @@
          "correct": "Eagle"
        },
        {
-         "question": "audio path",
+         "question": "question_ladybug.png",
          "answer1": "Ladybug",
          "answer2": "Gorilla",
          "answer3": "Porcupine",
@@ -113,7 +113,7 @@
          "correct": "Ladybug"
        },
        {
-         "question": "audio path",
+         "question": "question_tiger.png",
          "answer1": "Snake",
          "answer2": "Rat",
          "answer3": "Seal",
@@ -121,7 +121,7 @@
          "correct": "Tiger"
        },
        {
-         "question": "audio path",
+         "question": "question_goose.png",
          "answer1": "Puma",
          "answer2": "Hyena",
          "answer3": "Goose",
@@ -129,7 +129,7 @@
          "correct": "Goose"
        },
        {
-         "question": "audio path",
+         "question": "question_bear.png",
          "answer1": "Crow",
          "answer2": "Sloth",
          "answer3": "Bear",
@@ -137,7 +137,7 @@
          "correct": "Bear"
        },
        {
-         "question": "audio path",
+         "question": "question_lion.png",
          "answer1": "Lion",
          "answer2": "Bison",
          "answer3": "Snail",
@@ -145,7 +145,7 @@
          "correct": "Lion"
        },
        {
-         "question": "audio path",
+         "question": "question_spider.png",
          "answer1": "Pigeon",
          "answer2": "Spider",
          "answer3": "Platypus",
@@ -153,7 +153,7 @@
          "correct": "Spider"
        },
        {
-         "question": "audio path",
+         "question": "question_seahorse.png",
          "answer1": "Seahorse",
          "answer2": "Peacock",
          "answer3": "Pig",
@@ -161,7 +161,7 @@
          "correct": "Seahorse"
        },
        {
-         "question": "audio path",
+         "question": "question_elephant.png",
          "answer1": "Otter",
          "answer2": "Moth",
          "answer3": "Elephant",
@@ -169,7 +169,7 @@
          "correct": "Elephant"
        },
        {
-         "question": "audio path",
+         "question": "question_ant.png",
          "answer1": "Dragonfly",
          "answer2": "Pangolin",
          "answer3": "Ant",
@@ -177,7 +177,7 @@
          "correct": "Ant"
        },
        {
-         "question": "audio path",
+         "question": "question_pigeon.png",
          "answer1": "Pigeon",
          "answer2": "Coyote",
          "answer3": "Dolphin",
@@ -185,7 +185,7 @@
          "correct": "Pigeon"
        },
        {
-         "question": "audio path",
+         "question": "question_kangaroo.png",
          "answer1": "Kangaroo",
          "answer2": "Monkey",
          "answer3": "Shark",
@@ -193,7 +193,7 @@
          "correct": "Kangaroo"
        },
        {
-         "question": "audio path",
+         "question": "question_penguin.png",
          "answer1": "Cheetah",
          "answer2": "Butterfly",
          "answer3": "Penguin",
