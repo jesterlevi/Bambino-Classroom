@@ -1,7 +1,7 @@
 {
   "questions": [
     {
-      "question":"path",
+      "question":"question_banana.png",
       "answer1": "Banana",
       "answer2": "Strawberry",
       "answer3": "Orange",
@@ -9,7 +9,7 @@
       "correct": "Banana"
     },
     {
-      "question": "path",
+      "question": "question_grapes.png",
       "answer1": "Cherry",
       "answer2": "Lemon",
       "answer3": "Grapes",
@@ -17,7 +17,7 @@
       "correct": "Grapes"
     },
     {
-      "question": "audio path",
+      "question": "question_papaya.png",
       "answer1": "Papaya",
       "answer2": "Tamarind",
       "answer3": "Longan",
@@ -25,7 +25,7 @@
       "correct": "Papaya"
     },
     {
-      "question": "audio path",
+      "question": "question_mango.png",
       "answer1": "Soursop",
       "answer2": "Pear",
       "answer3": "Mango",
@@ -33,7 +33,7 @@
       "correct": "Mango"
     },
     {
-      "question": "audio path",
+      "question": "question_watermelon.png",
       "answer1": "Jackfruit",
       "answer2": "Lemon",
       "answer3": "Pomegranate",
@@ -41,7 +41,7 @@
       "correct": "Watermelon"
     },
     {
-      "question": "audio path",
+      "question": "question_apple.png",
       "answer1": "Apple",
       "answer2": "Grapes",
       "answer3": "Dragonfruit",
@@ -49,7 +49,7 @@
       "correct": "Apple"
     },
     {
-      "question": "audio path",
+      "question": "question_sugar.png",
       "answer1": "Kiwifruit",
       "answer2": "Pear",
       "answer3": "Sugar-Apple",
@@ -57,7 +57,7 @@
       "correct": "Sugar-Apple"
     },
     {
-      "question": "audio path",
+      "question": "question_durian.png",
       "answer1": "Orange",
       "answer2": "Durian",
       "answer3": "Guava",
@@ -65,7 +65,7 @@
       "correct": "Durian"
     },
     {
-      "question": "audio path",
+      "question": "question_carambola.png",
       "answer1": "Mango",
       "answer2": "Cranberries",
       "answer3": "Lychee",
@@ -73,7 +73,7 @@
       "correct": "Carambola"
     },
     {
-      "question": "audio path",
+      "question": "question_cantaloupe.png",
       "answer1": "Cantaloupe",
       "answer2": "Blackberries",
       "answer3": "Papaya",
@@ -81,7 +81,7 @@
       "correct": "Cantaloupe"
     },
     {
-      "question": "audio path",
+      "question": "question_strawberry.png",
       "answer1": "Longan",
       "answer2": "Banana",
       "answer3": "Strawberry",
@@ -89,7 +89,7 @@
       "correct": "Strawberry"
     },
     {
-      "question": "audio path",
+      "question": "question_mangosteen.png",
       "answer1": "Mangosteen",
       "answer2": "Plum",
       "answer3": "Plantain",
@@ -97,7 +97,7 @@
       "correct": "Mangosteen"
     },
     {
-      "question": "audio path",
+      "question": "question_jackfruit.png",
       "answer1": "Chico Fruit",
       "answer2": "Pummelo",
       "answer3": "Jackfruit",
@@ -105,15 +105,15 @@
       "correct": "Jackfruit"
     },
     {
-      "question": "audio path",
+      "question": "question_persimmon.png",
       "answer1": "Fig",
-      "answer2": "Java Plum",
+      "answer2": "Plum",
       "answer3": "Persimmon",
       "answer4": "Soursop",
       "correct": "Persimmon"
     },
     {
-      "question": "audio path",
+      "question": "question_blackberry.png",
       "answer1": "Blackberries",
       "answer2": "Mango",
       "answer3": "Pomegranate",
@@ -121,7 +121,7 @@
       "correct": "Blackberries"
     },
     {
-      "question": "audio path",
+      "question": "question_avocado.png",
       "answer1": "Quince",
       "answer2": "Avocado",
       "answer3": "Kiwifruit",
@@ -129,7 +129,7 @@
       "correct": "Avocado"
     },
     {
-      "question": "audio path",
+      "question": "question_raspberry.png",
       "answer1": "Raspberries",
       "answer2": "Strawberry",
       "answer3": "Olives",
@@ -137,7 +137,7 @@
       "correct": "Raspberries"
     },
     {
-      "question": "audio path",
+      "question": "question_pineapple.png",
       "answer1": "Mango",
       "answer2": "Lychee",
       "answer3": "Durian",
@@ -145,7 +145,7 @@
       "correct": "Pineapple"
     },
     {
-      "question": "audio path",
+      "question": "question_dragonfruit.png",
       "answer1": "Orange",
       "answer2": "Chico Fruit",
       "answer3": "Dragonfruit",
@@ -153,7 +153,7 @@
       "correct": "Dragonfruit"
     },
     {
-      "question": "audio path",
+      "question": "question_olive.png",
       "answer1": "Olives",
       "answer2": "Guava",
       "answer3": "Cantaloupe",
@@ -161,15 +161,15 @@
       "correct": "Olives"
     },
     {
-      "question": "audio path",
-      "answer1": "Peaches",
+      "question": "question_peaches.png",
+      "answer1": "Peach",
       "answer2": "Orange",
       "answer3": "Apple",
       "answer4": "Chico Fruit",
-      "correct": "Peaches"
+      "correct": "Peach"
     },
     {
-      "question": "audio path",
+      "question": "question_passion.png",
       "answer1": "Kiwifruit",
       "answer2": "Pear",
       "answer3": "Passion Fruit",
@@ -177,7 +177,7 @@
       "correct": "Passion Fruit"
     },
     {
-      "question": "audio path",
+      "question": "question_plum.png",
       "answer1": "Cherry",
       "answer2": "Lemon",
       "answer3": "Soursop",
@@ -185,7 +185,7 @@
       "correct": "Plum"
     },
     {
-      "question": "audio path",
+      "question": "question_pomegranate.png",
       "answer1": "Fig",
       "answer2": "Pomegranate",
       "answer3": "Raspberries",
@@ -193,7 +193,7 @@
       "correct": "Pomegranate"
     },
     {
-      "question": "audio path",
+      "question": "question_blueberry.png",
       "answer1": "Apple",
       "answer2": "Blueberries",
       "answer3": "Grapes",
